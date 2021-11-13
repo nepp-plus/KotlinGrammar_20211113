@@ -96,6 +96,13 @@ class MainActivity : AppCompatActivity() {
 
             Log.d("조건문02", person02Ok.toString())
 
+
+//            3번 구직자
+//            조건 : 빨리 퇴근안하는 회사 -> NOT 연산
+
+            val person03Ok =  !compnayAWorkEasy
+            Log.d("조건문02", person03Ok.toString())
+
         }
 
     }
